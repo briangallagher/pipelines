@@ -55,7 +55,7 @@ def automl_create_dataset_for_tables(
 
 
 if __name__ == '__main__':
-    from kfp.components import create_component_from_func
+    from kubeflow.kfp.components import create_component_from_func
 
     automl_create_dataset_for_tables_op = create_component_from_func(
         automl_create_dataset_for_tables,

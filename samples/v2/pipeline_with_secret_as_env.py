@@ -14,7 +14,7 @@
 """A pipeline that passes a secret as an env variable to a container."""
 from kfp import dsl
 from kfp import kubernetes
-from kfp.dsl import OutputPath
+from kubeflow.kfp.dsl import OutputPath
 import os
 
 # Note: this sample will only work if this secret is pre-created before running this pipeline.

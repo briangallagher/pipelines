@@ -17,8 +17,8 @@
 from typing import Optional
 
 from kfp import dsl
-from kfp.dsl import Artifact
-from kfp.dsl import Input
+from kubeflow.kfp.dsl import Artifact
+from kubeflow.kfp.dsl import Input
 
 
 @dsl.container_component

@@ -1,6 +1,6 @@
 from typing import NamedTuple
 
-from kfp.components import create_component_from_func, InputPath, OutputPath
+from kubeflow.kfp.components import create_component_from_func, InputPath, OutputPath
 
 def automl_create_tables_dataset_from_csv(
     data_path: InputPath('CSV'),

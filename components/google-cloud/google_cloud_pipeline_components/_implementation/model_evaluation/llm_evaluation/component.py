@@ -19,10 +19,10 @@ from google_cloud_pipeline_components import utils as gcpc_utils
 from google_cloud_pipeline_components._implementation.model_evaluation import utils
 from google_cloud_pipeline_components._implementation.model_evaluation import version
 from kfp import dsl
-from kfp.dsl import Artifact
-from kfp.dsl import Metrics
-from kfp.dsl import Output
-from kfp.dsl import OutputPath
+from kubeflow.kfp.dsl import Artifact
+from kubeflow.kfp.dsl import Metrics
+from kubeflow.kfp.dsl import Output
+from kubeflow.kfp.dsl import OutputPath
 
 
 @dsl.container_component

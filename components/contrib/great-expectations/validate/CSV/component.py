@@ -1,4 +1,4 @@
-from kfp.components import InputPath, create_component_from_func, OutputPath
+from kubeflow.kfp.components import InputPath, create_component_from_func, OutputPath
 
 
 def validate_csv_using_greatexpectations(

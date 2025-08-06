@@ -15,9 +15,9 @@
 """Pipeline for cifar10 example."""
 
 import json
-from kfp.onprem import use_k8s_secret
+from kubeflow.kfp.onprem import use_k8s_secret
 from kfp import components
-from kfp.components import load_component_from_file
+from kubeflow.kfp.components import load_component_from_file
 from kfp import dsl
 from kfp import compiler
 

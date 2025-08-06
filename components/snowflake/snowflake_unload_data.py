@@ -3,7 +3,7 @@ This is a KFP component doing "unload data to GCS bucket" operation
   from the Snowflake database.
 """
 from kfp import compiler
-from kfp.dsl import component
+from kubeflow.kfp.dsl import component
 
 @component(
     base_image="python:3.11",

@@ -20,7 +20,7 @@ from google_cloud_pipeline_components._implementation.model_evaluation.text2sql_
 from google_cloud_pipeline_components._implementation.model_evaluation.text2sql_preprocess.component import text2sql_evaluation_preprocess as Text2SQLEvaluationPreprocessOp
 from google_cloud_pipeline_components._implementation.model_evaluation.text2sql_validate_and_process.component import text2sql_evaluation_validate_and_process as Text2SQLEvaluationValidateAndProcessOp
 import kfp
-from kfp.dsl import PIPELINE_ROOT_PLACEHOLDER
+from kubeflow.kfp.dsl import PIPELINE_ROOT_PLACEHOLDER
 
 
 _PIPELINE_NAME = 'evaluation_llm_text2sql_pipeline'

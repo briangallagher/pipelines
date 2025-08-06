@@ -18,7 +18,7 @@ import os
 
 from kfp import compiler
 from kfp import dsl
-from kfp.dsl import component
+from kubeflow.kfp.dsl import component
 
 @dsl.component()
 def build_model_car(model: dsl.Output[dsl.Model]):

@@ -15,9 +15,9 @@ from __future__ import annotations
 
 import unittest
 
-from kfp.samples.test.utils import KfpTask
-from kfp.samples.test.utils import run_pipeline_func
-from kfp.samples.test.utils import TestCase
+from kubeflow.kfp.samples.test.utils import KfpTask
+from kubeflow.kfp.samples.test.utils import run_pipeline_func
+from kubeflow.kfp.samples.test.utils import TestCase
 import kfp_server_api
 
 from .pipeline_with_volume import pipeline_with_volume_no_cache

@@ -16,14 +16,14 @@ from typing import List
 
 from google_cloud_pipeline_components._implementation.model_evaluation import version
 from google_cloud_pipeline_components.types.artifact_types import VertexDataset
-from kfp.dsl import container_component
-from kfp.dsl import ContainerSpec
-from kfp.dsl import IfPresentPlaceholder
-from kfp.dsl import Input
-from kfp.dsl import OutputPath
-from kfp.dsl import PIPELINE_JOB_ID_PLACEHOLDER
-from kfp.dsl import PIPELINE_ROOT_PLACEHOLDER
-from kfp.dsl import PIPELINE_TASK_ID_PLACEHOLDER
+from kubeflow.kfp.dsl import container_component
+from kubeflow.kfp.dsl import ContainerSpec
+from kubeflow.kfp.dsl import IfPresentPlaceholder
+from kubeflow.kfp.dsl import Input
+from kubeflow.kfp.dsl import OutputPath
+from kubeflow.kfp.dsl import PIPELINE_JOB_ID_PLACEHOLDER
+from kubeflow.kfp.dsl import PIPELINE_ROOT_PLACEHOLDER
+from kubeflow.kfp.dsl import PIPELINE_TASK_ID_PLACEHOLDER
 
 
 @container_component

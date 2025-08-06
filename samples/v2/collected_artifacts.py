@@ -2,8 +2,8 @@ from typing import List
 
 import kfp
 from kfp import dsl
-from kfp.dsl import Artifact, Dataset, Model
-from kfp.dsl import Output
+from kubeflow.kfp.dsl import Artifact, Dataset, Model
+from kubeflow.kfp.dsl import Output
 
 # This sample pipeline is meant to cover the following cases during artifact resolution:
 # 1. ParallelFor task consuming input from another task within the same loop.

@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch, MagicMock, ANY
-from kfp.components.structures import (
+from kubeflow.kfp.components.structures import (
     ComponentSpec,
     InputSpec,
     OutputSpec,

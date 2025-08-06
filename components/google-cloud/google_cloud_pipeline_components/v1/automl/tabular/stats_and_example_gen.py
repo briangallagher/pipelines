@@ -17,9 +17,9 @@
 from typing import Optional
 
 from kfp import dsl
-from kfp.dsl import Artifact
-from kfp.dsl import Dataset
-from kfp.dsl import Output
+from kubeflow.kfp.dsl import Artifact
+from kubeflow.kfp.dsl import Dataset
+from kubeflow.kfp.dsl import Output
 
 
 @dsl.container_component

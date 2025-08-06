@@ -1,6 +1,6 @@
 import kfp.dsl as dsl
 import kfp.components as components
-from kfp.gcp import use_gcp_secret
+from kubeflow.kfp.gcp import use_gcp_secret
 
 @dsl.pipeline(
    name='mnist pipeline',

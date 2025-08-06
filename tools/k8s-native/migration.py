@@ -17,7 +17,7 @@ import requests
 import yaml
 import os
 from pathlib import Path
-from kfp.dsl import utils
+from kubeflow.kfp.dsl import utils
 
 # Constants and defaults
 K8S_PIPELINE_API_VERSION = 'pipelines.kubeflow.org/v2beta1'

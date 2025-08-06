@@ -18,7 +18,7 @@ from typing import Optional
 from google_cloud_pipeline_components import _image
 from google_cloud_pipeline_components.types.artifact_types import VertexModel
 from kfp import dsl
-from kfp.dsl import Input
+from kubeflow.kfp.dsl import Input
 
 
 @dsl.container_component

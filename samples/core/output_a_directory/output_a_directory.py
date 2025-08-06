@@ -20,7 +20,7 @@
 import os
 
 from kfp import client, dsl
-from kfp.dsl import Input, Output, Artifact
+from kubeflow.kfp.dsl import Input, Output, Artifact
 # Outputting directories from Python-based components:
 
 # In tests, we install a KFP package from the PR under test. Users should not

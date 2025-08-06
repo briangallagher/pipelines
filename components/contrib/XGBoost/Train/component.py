@@ -1,4 +1,4 @@
-from kfp.components import InputPath, OutputPath, create_component_from_func
+from kubeflow.kfp.components import InputPath, OutputPath, create_component_from_func
 
 def xgboost_train(
     training_data_path: InputPath('CSV'),  # Also supports LibSVM

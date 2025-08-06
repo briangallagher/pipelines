@@ -21,7 +21,7 @@ import unittest
 
 from kfp import compiler
 from kfp import components
-from kfp.components import placeholders
+from kubeflow.kfp.components import placeholders
 import pytest
 import yaml
 

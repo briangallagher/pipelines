@@ -13,10 +13,10 @@
 # limitations under the License.
 from google_cloud_pipeline_components import _image
 from google_cloud_pipeline_components.types.artifact_types import VertexModel
-from kfp.dsl import container_component
-from kfp.dsl import ContainerSpec
-from kfp.dsl import Output
-from kfp.dsl import OutputPath
+from kubeflow.kfp.dsl import container_component
+from kubeflow.kfp.dsl import ContainerSpec
+from kubeflow.kfp.dsl import Output
+from kubeflow.kfp.dsl import OutputPath
 
 
 @container_component

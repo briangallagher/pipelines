@@ -7,7 +7,7 @@ import kfp
 import os
 from kfp import components
 from kfp import dsl
-from kfp.aws import use_aws_secret
+from kubeflow.kfp.aws import use_aws_secret
 
 
 cur_file_dir = os.path.dirname(__file__)

@@ -16,7 +16,7 @@ from typing import Dict, List
 import os
 
 from kfp import dsl
-from kfp.dsl import Input, InputPath, Output, OutputPath, Dataset, Model, component
+from kubeflow.kfp.dsl import Input, InputPath, Output, OutputPath, Dataset, Model, component
 import kfp.compiler as compiler
 
 # In tests, we install a KFP package from the PR under test. Users should not

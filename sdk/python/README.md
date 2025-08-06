@@ -16,7 +16,7 @@ pip install kfp
 The following is an example of a simple pipeline that uses the `kfp` v2 syntax:
 
 ```python
-from kfp import dsl
+from kubeflow.kfp import dsl
 import kfp
 
 

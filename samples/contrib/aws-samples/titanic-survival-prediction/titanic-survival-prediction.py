@@ -4,7 +4,7 @@ import kfp
 from kfp import components
 from kfp import dsl
 from kfp import gcp
-from kfp.aws import use_aws_secret
+from kubeflow.kfp.aws import use_aws_secret
 
 emr_create_cluster_op = components.load_component_from_file(
     "../../../../components/aws/emr/create_cluster/component.yaml"

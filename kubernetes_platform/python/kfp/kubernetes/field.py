@@ -13,9 +13,9 @@
 # limitations under the License.
 
 from google.protobuf import json_format
-from kfp.dsl import PipelineTask
-from kfp.kubernetes import common
-from kfp.kubernetes import kubernetes_executor_config_pb2 as pb
+from kubeflow.kfp.dsl import PipelineTask
+from kubeflow.kfp.kubernetes import common
+from kubeflow.kfp.kubernetes import kubernetes_executor_config_pb2 as pb
 
 
 def use_field_path_as_env(

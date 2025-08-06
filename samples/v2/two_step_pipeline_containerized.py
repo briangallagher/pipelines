@@ -14,12 +14,12 @@
 """Two step pipeline using dsl.container_component decorator."""
 
 from kfp import compiler
-from kfp.dsl import container_component
-from kfp.dsl import ContainerSpec
-from kfp.dsl import Dataset
-from kfp.dsl import Input
-from kfp.dsl import Output
-from kfp.dsl import pipeline
+from kubeflow.kfp.dsl import container_component
+from kubeflow.kfp.dsl import ContainerSpec
+from kubeflow.kfp.dsl import Dataset
+from kubeflow.kfp.dsl import Input
+from kubeflow.kfp.dsl import Output
+from kubeflow.kfp.dsl import pipeline
 
 
 @container_component

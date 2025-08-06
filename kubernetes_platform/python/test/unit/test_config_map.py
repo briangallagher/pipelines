@@ -15,7 +15,7 @@
 from google.protobuf import json_format
 from kfp import dsl
 from kfp import kubernetes
-from kfp.dsl import OutputPath
+from kubeflow.kfp.dsl import OutputPath
 
 class TestUseConfigMapAsVolume:
 

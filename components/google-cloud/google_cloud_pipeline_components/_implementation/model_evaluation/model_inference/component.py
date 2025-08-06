@@ -18,12 +18,12 @@ from google_cloud_pipeline_components import utils as gcpc_utils
 from google_cloud_pipeline_components._implementation.model_evaluation import LLMEvaluationTextGenerationOp
 from google_cloud_pipeline_components._implementation.model_evaluation import utils
 from google_cloud_pipeline_components._implementation.model_evaluation import version
-from kfp.dsl import Artifact
-from kfp.dsl import container_component
-from kfp.dsl import Metrics
-from kfp.dsl import Output
-from kfp.dsl import OutputPath
-from kfp.dsl import pipeline
+from kubeflow.kfp.dsl import Artifact
+from kubeflow.kfp.dsl import container_component
+from kubeflow.kfp.dsl import Metrics
+from kubeflow.kfp.dsl import Output
+from kubeflow.kfp.dsl import OutputPath
+from kubeflow.kfp.dsl import pipeline
 
 
 _IMAGE_URI = 'gcr.io/model-evaluation-dev/llm_eval:clyu-test'

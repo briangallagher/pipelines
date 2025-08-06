@@ -315,7 +315,7 @@ def run_v2_pipeline(
         if file.endswith(".ipynb"):
             pyfile = tempfile.mktemp(suffix='.py', prefix="pipeline_py_code")
             _nb_sample_to_py(file, pyfile)
-        from kfp.cli.compile import dsl_compile
+        from kubeflow.kfp.cli.compile import dsl_compile
         dsl_compile(py=pyfile, output=pipeline_spec_file)
 
     return client.create_run_from_pipeline_package(

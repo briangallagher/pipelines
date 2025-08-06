@@ -15,7 +15,7 @@
 
 import json
 from typing import Any, Dict, List, Optional, Sequence, Union
-from kfp.dsl import placeholders
+from kubeflow.kfp.dsl import placeholders
 
 
 _InputType = Union[

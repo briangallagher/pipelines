@@ -1,7 +1,7 @@
 import unittest
 from pathlib import Path
 import kfp
-from kfp.dsl import PipelineParam
+from kubeflow.kfp.dsl import PipelineParam
 from databricks import CreateClusterOp, DeleteClusterOp
 
 class TestCreateClusterOp(unittest.TestCase):

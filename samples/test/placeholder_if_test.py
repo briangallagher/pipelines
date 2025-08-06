@@ -13,8 +13,8 @@
 # limitations under the License.
 
 import kfp
-from kfp.samples.test.utils import run_pipeline_func
-from kfp.samples.test.utils import TestCase
+from kubeflow.kfp.samples.test.utils import run_pipeline_func
+from kubeflow.kfp.samples.test.utils import TestCase
 
 from .placeholder_if_v2 import pipeline_both as pipeline_both_v2
 from .placeholder_if_v2 import pipeline_none as pipeline_none_v2

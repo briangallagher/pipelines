@@ -1,8 +1,8 @@
 from kfp import dsl
-from kfp.compiler import compiler
-from kfp.kubernetes import add_pod_annotation
-from kfp.kubernetes import add_pod_label
-from kfp.kubernetes import use_field_path_as_env
+from kubeflow.kfp.compiler import compiler
+from kubeflow.kfp.kubernetes import add_pod_annotation
+from kubeflow.kfp.kubernetes import add_pod_label
+from kubeflow.kfp.kubernetes import use_field_path_as_env
 
 
 # Component is specific to task_a() and validates that task_a() contains one annotation and two labels.

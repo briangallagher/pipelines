@@ -23,7 +23,7 @@ from kfp import components
 from kfp import dsl
 # do not follow this pattern!
 # we should not depend on non-public modules of the KFP SDK!
-from kfp.components import placeholders
+from kubeflow.kfp.components import placeholders
 
 from google.protobuf import json_format
 

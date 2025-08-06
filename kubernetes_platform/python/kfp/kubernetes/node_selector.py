@@ -14,8 +14,8 @@
 from typing import Optional, Union
 
 from google.protobuf import json_format
-from kfp.dsl import PipelineTask, pipeline_channel
-from kfp.kubernetes import common
+from kubeflow.kfp.dsl import PipelineTask, pipeline_channel
+from kubeflow.kfp.kubernetes import common
 
 
 def add_node_selector(

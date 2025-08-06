@@ -9,7 +9,7 @@ from kfp import components
 from kfp import dsl
 import random
 import string
-from kfp.aws import use_aws_secret
+from kubeflow.kfp.aws import use_aws_secret
 
 cur_file_dir = os.path.dirname(__file__)
 components_dir = os.path.join(cur_file_dir, "../../../../components/aws/sagemaker/")

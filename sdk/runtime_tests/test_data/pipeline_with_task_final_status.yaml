@@ -81,7 +81,7 @@ deploymentSpec:
           _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
 
           '
-        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+        - "\nimport kfp\nfrom kubeflow.kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
           \ *\n\ndef exit_op(user_input: str, status: PipelineTaskFinalStatus):\n\
           \    \"\"\"Checks pipeline run status.\"\"\"\n    print('Pipeline status:\
           \ ', status.state)\n    print('Job resource name: ', status.pipeline_job_resource_name)\n\
@@ -114,7 +114,7 @@ deploymentSpec:
           _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
 
           '
-        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+        - "\nimport kfp\nfrom kubeflow.kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
           \ *\n\ndef fail_op(message: str):\n    \"\"\"Fails.\"\"\"\n    import sys\n\
           \    print(message)\n    sys.exit(1)\n\n"
         image: python:3.9
@@ -143,7 +143,7 @@ deploymentSpec:
           _KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         "$program_path/ephemeral_component.py"                         "$@"
 
           '
-        - "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
+        - "\nimport kfp\nfrom kubeflow.kfp import dsl\nfrom kfp.dsl import *\nfrom typing import\
           \ *\n\ndef print_op(message: str):\n    \"\"\"Prints a message.\"\"\"\n\
           \    print(message)\n\n"
         image: python:3.9

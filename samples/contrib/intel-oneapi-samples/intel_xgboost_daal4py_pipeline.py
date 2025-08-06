@@ -1,6 +1,6 @@
 from kfp import dsl
 from kfp import compiler
-from kfp.dsl import (Input, Output, Dataset, Model, Metrics, ClassificationMetrics)
+from kubeflow.kfp.dsl import (Input, Output, Dataset, Model, Metrics, ClassificationMetrics)
 
 @dsl.component(
         base_image="python:3.10", 

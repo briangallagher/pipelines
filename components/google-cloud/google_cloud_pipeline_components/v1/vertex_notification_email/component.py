@@ -15,9 +15,9 @@
 from typing import List
 
 from google_cloud_pipeline_components import _image
-from kfp.dsl import container_component
-from kfp.dsl import ContainerSpec
-from kfp.dsl import PipelineTaskFinalStatus
+from kubeflow.kfp.dsl import container_component
+from kubeflow.kfp.dsl import ContainerSpec
+from kubeflow.kfp.dsl import PipelineTaskFinalStatus
 
 
 @container_component

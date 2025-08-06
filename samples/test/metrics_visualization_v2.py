@@ -14,7 +14,7 @@
 import os
 
 from kfp import dsl
-from kfp.dsl import (component, Output, ClassificationMetrics, Metrics, HTML,
+from kubeflow.kfp.dsl import (component, Output, ClassificationMetrics, Metrics, HTML,
                      Markdown)
 
 # In tests, we install a KFP package from the PR under test. Users should not

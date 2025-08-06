@@ -20,12 +20,12 @@ from google_cloud_pipeline_components import _placeholders
 from google_cloud_pipeline_components._implementation.model_evaluation.llm_safety_bias.component import llm_safety_bias_metrics as LLMSafetyBiasMetricsOp
 from google_cloud_pipeline_components.types.artifact_types import VertexBatchPredictionJob
 from kfp import dsl
-from kfp.dsl import Artifact
-from kfp.dsl import ConcatPlaceholder
-from kfp.dsl import container_component
-from kfp.dsl import ContainerSpec
-from kfp.dsl import Output
-from kfp.dsl import OutputPath
+from kubeflow.kfp.dsl import Artifact
+from kubeflow.kfp.dsl import ConcatPlaceholder
+from kubeflow.kfp.dsl import container_component
+from kubeflow.kfp.dsl import ContainerSpec
+from kubeflow.kfp.dsl import Output
+from kubeflow.kfp.dsl import OutputPath
 
 _PRIVATE_BP_IMAGE = (
     'us-docker.pkg.dev/vertex-ai-restricted/llm-eval/private-bp:v0.1'

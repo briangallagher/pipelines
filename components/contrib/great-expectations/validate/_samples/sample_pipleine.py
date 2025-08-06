@@ -1,7 +1,7 @@
 from pathlib import Path
 
 import kfp.dsl
-from kfp.components import ComponentStore, load_component_from_file
+from kubeflow.kfp.components import ComponentStore, load_component_from_file
 
 
 store = ComponentStore.default_store

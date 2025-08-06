@@ -34,7 +34,7 @@ from typing import Dict, List
 
 from kfp import compiler
 from kfp import dsl
-from kfp.dsl import Input, InputPath, Output, OutputPath, Dataset, Model, component
+from kubeflow.kfp.dsl import Input, InputPath, Output, OutputPath, Dataset, Model, component
 
 
 @component

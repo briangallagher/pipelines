@@ -15,7 +15,7 @@
 
 
 from kfp import dsl, compiler
-from kfp.components import load_component_from_text
+from kubeflow.kfp.components import load_component_from_text
 
 
 # Accessing GCS using the Google Cloud SDK command-line programs

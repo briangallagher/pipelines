@@ -31,7 +31,7 @@ def get_requirements(requirements_file: str) -> List[str]:
     return lines
 
 def find_version(*file_path_parts: str) -> str:
-    """Get version from kfp.__init__.__version__."""
+    """Get version from kubeflow.kfp.__init__.__version__."""
 
     file_path = os.path.join(os.path.dirname(__file__), *file_path_parts)
     with open(file_path, 'r') as f:

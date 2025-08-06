@@ -38,24 +38,24 @@ __all__ = [
     'use_secret_as_volume',
 ]
 
-from kfp.kubernetes.config_map import use_config_map_as_env
-from kfp.kubernetes.config_map import use_config_map_as_volume
-from kfp.kubernetes.empty_dir import empty_dir_mount
-from kfp.kubernetes.field import use_field_path_as_env
-from kfp.kubernetes.image import set_image_pull_policy
-from kfp.kubernetes.image import set_image_pull_secrets
-from kfp.kubernetes.node_selector import add_node_selector
-from kfp.kubernetes.node_selector import add_node_selector_json
-from kfp.kubernetes.node_affinity import add_node_affinity
-from kfp.kubernetes.node_affinity import add_node_affinity_json
-from kfp.kubernetes.pod_metadata import add_pod_annotation
-from kfp.kubernetes.pod_metadata import add_pod_label
-from kfp.kubernetes.secret import use_secret_as_env
-from kfp.kubernetes.secret import use_secret_as_volume
-from kfp.kubernetes.timeout import set_timeout
-from kfp.kubernetes.toleration import add_toleration
-from kfp.kubernetes.toleration import add_toleration_json
-from kfp.kubernetes.volume import add_ephemeral_volume
-from kfp.kubernetes.volume import CreatePVC
-from kfp.kubernetes.volume import DeletePVC
-from kfp.kubernetes.volume import mount_pvc
+from kubeflow.kfp.kubernetes.config_map import use_config_map_as_env
+from kubeflow.kfp.kubernetes.config_map import use_config_map_as_volume
+from kubeflow.kfp.kubernetes.empty_dir import empty_dir_mount
+from kubeflow.kfp.kubernetes.field import use_field_path_as_env
+from kubeflow.kfp.kubernetes.image import set_image_pull_policy
+from kubeflow.kfp.kubernetes.image import set_image_pull_secrets
+from kubeflow.kfp.kubernetes.node_selector import add_node_selector
+from kubeflow.kfp.kubernetes.node_selector import add_node_selector_json
+from kubeflow.kfp.kubernetes.node_affinity import add_node_affinity
+from kubeflow.kfp.kubernetes.node_affinity import add_node_affinity_json
+from kubeflow.kfp.kubernetes.pod_metadata import add_pod_annotation
+from kubeflow.kfp.kubernetes.pod_metadata import add_pod_label
+from kubeflow.kfp.kubernetes.secret import use_secret_as_env
+from kubeflow.kfp.kubernetes.secret import use_secret_as_volume
+from kubeflow.kfp.kubernetes.timeout import set_timeout
+from kubeflow.kfp.kubernetes.toleration import add_toleration
+from kubeflow.kfp.kubernetes.toleration import add_toleration_json
+from kubeflow.kfp.kubernetes.volume import add_ephemeral_volume
+from kubeflow.kfp.kubernetes.volume import CreatePVC
+from kubeflow.kfp.kubernetes.volume import DeletePVC
+from kubeflow.kfp.kubernetes.volume import mount_pvc

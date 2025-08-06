@@ -1,5 +1,5 @@
 from typing import NamedTuple
-from kfp.components import create_component_from_func, InputPath, OutputPath
+from kubeflow.kfp.components import create_component_from_func, InputPath, OutputPath
 
 def keras_train_classifier_from_csv(
     training_features_path: InputPath('CSV'),

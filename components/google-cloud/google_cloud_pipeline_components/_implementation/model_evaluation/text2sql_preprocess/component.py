@@ -16,9 +16,9 @@
 from google_cloud_pipeline_components import utils as gcpc_utils
 from google_cloud_pipeline_components._implementation.model_evaluation import utils
 from google_cloud_pipeline_components._implementation.model_evaluation import version
-from kfp.dsl import container_component
-from kfp.dsl import OutputPath
-from kfp.dsl import PIPELINE_ROOT_PLACEHOLDER
+from kubeflow.kfp.dsl import container_component
+from kubeflow.kfp.dsl import OutputPath
+from kubeflow.kfp.dsl import PIPELINE_ROOT_PLACEHOLDER
 
 
 @container_component

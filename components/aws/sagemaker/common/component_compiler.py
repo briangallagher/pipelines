@@ -14,7 +14,7 @@
 import difflib
 from tempfile import NamedTemporaryFile
 from typing import Callable, Dict, Type, Union, List, NamedTuple, cast
-from kfp.components.structures import (
+from kubeflow.kfp.components.structures import (
     ComponentSpec,
     InputSpec,
     OutputSpec,

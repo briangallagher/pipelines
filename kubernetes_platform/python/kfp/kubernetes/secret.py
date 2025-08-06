@@ -16,10 +16,10 @@ from typing import Dict, Union
 
 from google.protobuf import json_format
 
-from kfp.compiler.pipeline_spec_builder import to_protobuf_value
-from kfp.dsl import PipelineTask, pipeline_channel
-from kfp.kubernetes import common
-from kfp.kubernetes import kubernetes_executor_config_pb2 as pb
+from kubeflow.kfp.compiler.pipeline_spec_builder import to_protobuf_value
+from kubeflow.kfp.dsl import PipelineTask, pipeline_channel
+from kubeflow.kfp.kubernetes import common
+from kubeflow.kfp.kubernetes import kubernetes_executor_config_pb2 as pb
 
 
 def use_secret_as_env(

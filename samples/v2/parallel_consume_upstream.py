@@ -3,9 +3,9 @@
 # used within the pipeline.
 from kfp import Client
 from kfp import dsl
-from kfp.dsl import Artifact
-from kfp.dsl import Input
-from kfp.dsl import Output
+from kubeflow.kfp.dsl import Artifact
+from kubeflow.kfp.dsl import Input
+from kubeflow.kfp.dsl import Output
 
 
 @dsl.component

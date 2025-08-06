@@ -15,10 +15,10 @@
 """AutoML Split Materialized Data component spec."""
 
 from kfp import dsl
-from kfp.dsl import Artifact
-from kfp.dsl import Dataset
-from kfp.dsl import Input
-from kfp.dsl import Output
+from kubeflow.kfp.dsl import Artifact
+from kubeflow.kfp.dsl import Dataset
+from kubeflow.kfp.dsl import Input
+from kubeflow.kfp.dsl import Output
 
 
 @dsl.container_component
@@ -65,7 +65,7 @@ def split_materialized_data(
               ' "$@"\n'
           ),
           (
-              '\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom'
+              '\nimport kfp\nfrom kfp import dsl\nfrom kubeflow.kfp.dsl import *\nfrom'
               ' typing import *\n\ndef _split_materialized_data(\n   '
               ' materialized_data: Input[Dataset],\n   '
               " materialized_train_split: OutputPath('MaterializedSplit'),\n   "

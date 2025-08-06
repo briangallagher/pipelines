@@ -19,7 +19,7 @@ import unittest
 import json
 import pytest
 from kfp import components
-from kfp.components import load_component_from_file
+from kubeflow.kfp.components import load_component_from_file
 from kfp import dsl
 from kfp import compiler
 

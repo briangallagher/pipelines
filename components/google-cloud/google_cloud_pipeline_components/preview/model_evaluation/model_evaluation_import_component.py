@@ -21,8 +21,8 @@ from google_cloud_pipeline_components.types.artifact_types import ForecastingMet
 from google_cloud_pipeline_components.types.artifact_types import RegressionMetrics
 from google_cloud_pipeline_components.types.artifact_types import VertexModel
 from kfp import dsl
-from kfp.dsl import Input
-from kfp.dsl import Metrics
+from kubeflow.kfp.dsl import Input
+from kubeflow.kfp.dsl import Metrics
 
 
 @dsl.container_component

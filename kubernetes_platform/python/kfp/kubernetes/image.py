@@ -15,9 +15,9 @@
 from typing import List, Union
 
 from google.protobuf import json_format
-from kfp.dsl import PipelineTask, pipeline_channel
-from kfp.kubernetes import common
-from kfp.kubernetes import kubernetes_executor_config_pb2 as pb
+from kubeflow.kfp.dsl import PipelineTask, pipeline_channel
+from kubeflow.kfp.kubernetes import common
+from kubeflow.kfp.kubernetes import kubernetes_executor_config_pb2 as pb
 
 
 def set_image_pull_secrets(

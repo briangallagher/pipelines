@@ -20,7 +20,7 @@ from google_cloud_pipeline_components.types.artifact_types import BQTable
 from google_cloud_pipeline_components.types.artifact_types import RegressionMetrics
 from google_cloud_pipeline_components.types.artifact_types import VertexModel
 from kfp import dsl
-from kfp.dsl import container_component
+from kubeflow.kfp.dsl import container_component
 
 
 @container_component

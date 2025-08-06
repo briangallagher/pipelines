@@ -43,7 +43,7 @@ def replace_import(file_path):
     # Replace the specific import line
     new_content = re.sub(
         r'^import\s+pipeline_spec_pb2\s+as\s+pipeline__spec__pb2\s*$',
-        'from kfp.pipeline_spec import pipeline_spec_pb2 as pipeline__spec__pb2\n',
+        'from kubeflow.kfp.pipeline_spec import pipeline_spec_pb2 as pipeline__spec__pb2\n',
         content,
         flags=re.MULTILINE
     )

@@ -19,9 +19,9 @@ from typing import Optional
 from google_cloud_pipeline_components import utils
 from google_cloud_pipeline_components.types.artifact_types import UnmanagedContainerModel
 from kfp import dsl
-from kfp.dsl import Artifact
-from kfp.dsl import Input
-from kfp.dsl import Output
+from kubeflow.kfp.dsl import Artifact
+from kubeflow.kfp.dsl import Input
+from kubeflow.kfp.dsl import Output
 
 
 # pylint: disable=g-bare-generic,g-doc-args,unused-argument

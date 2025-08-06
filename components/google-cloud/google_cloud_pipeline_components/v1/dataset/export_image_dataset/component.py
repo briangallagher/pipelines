@@ -18,8 +18,8 @@ from google_cloud_pipeline_components import _image
 from google_cloud_pipeline_components import _placeholders
 from google_cloud_pipeline_components.types.artifact_types import VertexDataset
 from kfp import dsl
-from kfp.dsl import Input
-from kfp.dsl import Output
+from kubeflow.kfp.dsl import Input
+from kubeflow.kfp.dsl import Output
 
 
 @dsl.container_component

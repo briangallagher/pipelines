@@ -18,8 +18,8 @@ from google_cloud_pipeline_components import _image
 from google_cloud_pipeline_components.types.artifact_types import VertexEndpoint
 from google_cloud_pipeline_components.types.artifact_types import VertexModel
 from kfp import dsl
-from kfp.dsl import Input
-from kfp.dsl import OutputPath
+from kubeflow.kfp.dsl import Input
+from kubeflow.kfp.dsl import OutputPath
 
 
 @dsl.container_component

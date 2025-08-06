@@ -17,9 +17,9 @@ from typing import Dict, List, Optional, Union
 from google.protobuf import json_format
 from google.protobuf import message
 from kfp import dsl
-from kfp.dsl import PipelineTask
-from kfp.kubernetes import common
-from kfp.kubernetes import kubernetes_executor_config_pb2 as pb
+from kubeflow.kfp.dsl import PipelineTask
+from kubeflow.kfp.kubernetes import common
+from kubeflow.kfp.kubernetes import kubernetes_executor_config_pb2 as pb
 
 
 @dsl.container_component

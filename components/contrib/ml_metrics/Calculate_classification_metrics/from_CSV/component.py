@@ -1,6 +1,6 @@
 from typing import NamedTuple
 
-from kfp.components import InputPath, create_component_from_func
+from kubeflow.kfp.components import InputPath, create_component_from_func
 
 
 def calculate_classification_metrics_from_csv(

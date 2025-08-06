@@ -1,7 +1,7 @@
 import os
 import kfp.compiler as compiler
 import kfp.components as components
-from kfp.azure import use_azure_secret
+from kubeflow.kfp.azure import use_azure_secret
 import kfp.dsl as dsl
 import argparse
 

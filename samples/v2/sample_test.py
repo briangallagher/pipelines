@@ -20,7 +20,7 @@ from pprint import pprint
 from typing import List
 import unittest
 import kfp
-from kfp.dsl.graph_component import GraphComponent
+from kubeflow.kfp.dsl.graph_component import GraphComponent
 from kubernetes import client
 from kubernetes import config
 from kubernetes import utils

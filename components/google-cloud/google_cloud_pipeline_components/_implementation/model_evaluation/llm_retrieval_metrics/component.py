@@ -3,11 +3,11 @@
 from google_cloud_pipeline_components import utils as gcpc_utils
 from google_cloud_pipeline_components._implementation.model_evaluation import utils
 from google_cloud_pipeline_components._implementation.model_evaluation import version
-from kfp.dsl import container_component
-from kfp.dsl import Metrics
-from kfp.dsl import Output
-from kfp.dsl import OutputPath
-from kfp.dsl import PIPELINE_ROOT_PLACEHOLDER
+from kubeflow.kfp.dsl import container_component
+from kubeflow.kfp.dsl import Metrics
+from kubeflow.kfp.dsl import Output
+from kubeflow.kfp.dsl import OutputPath
+from kubeflow.kfp.dsl import PIPELINE_ROOT_PLACEHOLDER
 
 # pylint: disable=g-import-not-at-top, g-doc-args
 @container_component

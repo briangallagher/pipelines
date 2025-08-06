@@ -1,4 +1,4 @@
-from kfp.components import create_component_from_func, InputPath, OutputPath
+from kubeflow.kfp.components import create_component_from_func, InputPath, OutputPath
 
 
 def convert_to_tensorflow_saved_model_from_onnx_model(

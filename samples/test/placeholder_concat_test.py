@@ -13,8 +13,8 @@
 # limitations under the License.
 
 import kfp
-from kfp.samples.test.utils import run_pipeline_func
-from kfp.samples.test.utils import TestCase
+from kubeflow.kfp.samples.test.utils import run_pipeline_func
+from kubeflow.kfp.samples.test.utils import TestCase
 
 from .placeholder_concat import pipeline_with_concat_placeholder
 

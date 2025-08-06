@@ -1,5 +1,5 @@
 import json
-from kfp.dsl import ResourceOp
+from kubeflow.kfp.dsl import ResourceOp
 
 class CreateSecretScopeOp(ResourceOp):
     """Represents an Op which will be translated into a Databricks Secret Scope creation

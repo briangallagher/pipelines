@@ -2,7 +2,7 @@ import os
 
 from kfp import Client
 from kfp import dsl
-from kfp.compiler import Compiler
+from kubeflow.kfp.compiler import Compiler
 
 
 @dsl.component

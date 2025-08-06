@@ -5,7 +5,7 @@ import json
 import copy
 from kfp import components
 from kfp import dsl
-from kfp.aws import use_aws_secret
+from kubeflow.kfp.aws import use_aws_secret
 
 sagemaker_workteam_op = components.load_component_from_file(
     "../../../../components/aws/sagemaker/workteam/component.yaml"

@@ -1,7 +1,7 @@
 import json
 import kfp.dsl as dsl
 from kfp import components
-from kfp.dsl.types import Integer
+from kubeflow.kfp.dsl.types import Integer
 from typing import NamedTuple
 
 
